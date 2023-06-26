@@ -1,0 +1,64 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.0.0
+MinimumVisualStudioVersion = 16.0.0.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegistrosWasm.Server", "Server\RegistrosWasm.Server.csproj", "{906D73F0-7CA4-48E6-B8EF-6E23F579AC14}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegistrosWasm.Client", "Client\RegistrosWasm.Client.csproj", "{60A3C193-4B34-4C0E-B2E4-B81EE1E3E640}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegistrosWasm.Shared", "Shared\RegistrosWasm.Shared.csproj", "{90F2645D-29EA-4D8F-AC1C-43227B931A66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60A3C193-4B34-4C0E-B2E4-B81EE1E3E640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60A3C193-4B34-4C0E-B2E4-B81EE1E3E640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60A3C193-4B34-4C0E-B2E4-B81EE1E3E640}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{60A3C193-4B34-4C0E-B2E4-B81EE1E3E640}.Debug|x64.Build.0 = Debug|Any CPU
+		{60A3C193-4B34-4C0E-B2E4-B81EE1E3E640}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{60A3C193-4B34-4C0E-B2E4-B81EE1E3E640}.Debug|x86.Build.0 = Debug|Any CPU
+		{60A3C193-4B34-4C0E-B2E4-B81EE1E3E640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60A3C193-4B34-4C0E-B2E4-B81EE1E3E640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60A3C193-4B34-4C0E-B2E4-B81EE1E3E640}.Release|x64.ActiveCfg = Release|Any CPU
+		{60A3C193-4B34-4C0E-B2E4-B81EE1E3E640}.Release|x64.Build.0 = Release|Any CPU
+		{60A3C193-4B34-4C0E-B2E4-B81EE1E3E640}.Release|x86.ActiveCfg = Release|Any CPU
+		{60A3C193-4B34-4C0E-B2E4-B81EE1E3E640}.Release|x86.Build.0 = Release|Any CPU
+		{906D73F0-7CA4-48E6-B8EF-6E23F579AC14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{906D73F0-7CA4-48E6-B8EF-6E23F579AC14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{906D73F0-7CA4-48E6-B8EF-6E23F579AC14}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{906D73F0-7CA4-48E6-B8EF-6E23F579AC14}.Debug|x64.Build.0 = Debug|Any CPU
+		{906D73F0-7CA4-48E6-B8EF-6E23F579AC14}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{906D73F0-7CA4-48E6-B8EF-6E23F579AC14}.Debug|x86.Build.0 = Debug|Any CPU
+		{906D73F0-7CA4-48E6-B8EF-6E23F579AC14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{906D73F0-7CA4-48E6-B8EF-6E23F579AC14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{906D73F0-7CA4-48E6-B8EF-6E23F579AC14}.Release|x64.ActiveCfg = Release|Any CPU
+		{906D73F0-7CA4-48E6-B8EF-6E23F579AC14}.Release|x64.Build.0 = Release|Any CPU
+		{906D73F0-7CA4-48E6-B8EF-6E23F579AC14}.Release|x86.ActiveCfg = Release|Any CPU
+		{906D73F0-7CA4-48E6-B8EF-6E23F579AC14}.Release|x86.Build.0 = Release|Any CPU
+		{90F2645D-29EA-4D8F-AC1C-43227B931A66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90F2645D-29EA-4D8F-AC1C-43227B931A66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90F2645D-29EA-4D8F-AC1C-43227B931A66}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{90F2645D-29EA-4D8F-AC1C-43227B931A66}.Debug|x64.Build.0 = Debug|Any CPU
+		{90F2645D-29EA-4D8F-AC1C-43227B931A66}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{90F2645D-29EA-4D8F-AC1C-43227B931A66}.Debug|x86.Build.0 = Debug|Any CPU
+		{90F2645D-29EA-4D8F-AC1C-43227B931A66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90F2645D-29EA-4D8F-AC1C-43227B931A66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90F2645D-29EA-4D8F-AC1C-43227B931A66}.Release|x64.ActiveCfg = Release|Any CPU
+		{90F2645D-29EA-4D8F-AC1C-43227B931A66}.Release|x64.Build.0 = Release|Any CPU
+		{90F2645D-29EA-4D8F-AC1C-43227B931A66}.Release|x86.ActiveCfg = Release|Any CPU
+		{90F2645D-29EA-4D8F-AC1C-43227B931A66}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7EFFB504-9216-4DA0-BE38-8BC9053B9710}
+	EndGlobalSection
+EndGlobal
